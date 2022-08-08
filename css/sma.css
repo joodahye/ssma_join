@@ -1,103 +1,100 @@
-@charset "utf=8";
-*{
-	margin:0;
-	border:0;
-	box-sizing:border-box;
+@charset "utf-8";
+* {
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
 }
-html,body{
-	scroll-behavior:smooth;
-	font:10pt/100% 'Noto Sans KR', sans-serif;background:black;
+html, body{
+	scroll-behavior: smooth;
+	font: 10pt/100% 'Noto Sans KR', sans-serif;background:black;
 }
-a{
-	text-decoration:none;
-	color:white;
-	display:block;
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
 }
-img{
-	display:block;
+img {
+	display: block;
 }
-#layout{
-	max-width:500px;
-	margin:auto;
-	position:relative;
-	color:white;
-	overflow-y:hidden;
+#layout {
+	max-width: 500px;
+	margin: auto;
+	position: relative;
+	color: white;
+	overflow-y: hidden;
 }
 
-
-
-/*로그인영역*/
-main{
-	height:100vh;
-	opacity:1;
+/*main*/
+main {
+	height: 100vh;
+	opacity: 1;
 	animation: main 1s both;
 }
-@keyframes main{
+@keyframes main {
 	from{
 					opacity:0;
-	}to{
+	}
+	to{
 					opacity:1;
 	}
 }
-main>img{
-	width:40%;
-	margin:auto;
+main > img {
+	width: 40%;
+	margin: auto;
 	margin-top: 10vh;
 }
-#join{
-	font-size:3.2rem;
-	text-align:center;
-	margin-top:7vh;
-	letter-spacing:3px;
+#join {
+	font-size: 3.2rem;
+	text-align: center;
+	margin-top: 7vh;
+	letter-spacing: 3px;
 }
-#name{
-	font-size:1.7rem;
-	text-align:center;
-	border-bottom:1px solid white;
-	width:70vw;
-	margin:auto;
-	margin-top:18vh;
-	font-weight:lighter;
+#name {
+	font-size: 1.7rem;
+	text-align: center;
+	border-bottom: 1px solid white;
+	width: 70vw;
+	margin: auto;
+	margin-top: 18vh;
+	font-weight: lighter;
 }
-#name input{
-	width:50vw;
-	background:transparent;
-	border:none;
+#name input { 
+	width: 50vw;
+	background: transparent;
+	border: none;
 }
 
 #email {
-margin:auto;
-font-size:1.7rem;
-margin-top:2vh;
-text-align:center;
-border-bottom:1px solid white;
-width:70vw;
-font-weight:lighter;
+margin: auto;
+font-size: 1.7rem;
+margin-top: 2vh;
+text-align: center;
+border-bottom: 1px solid white;
+width: 70vw;
+font-weight: lighter;
 }
-#email input{
-	width:48vw;
-	background:transparent;
-	border:none;
+#email input {
+	width: 48vw;
+	background: transparent;
+	border: none;
 }
-
 #password  {
-	margin:auto;
-	font-size:1.7rem;
-	margin-top:5vh;
-	text-align:center;	
-	border-bottom:1px solid white;
-	width:70vw;
-	font-weight:lighter;
+	margin: auto;
+	font-size: 1.7rem;
+	margin-top: 5vh;
+	text-align: center;	
+	border-bottom: 1px solid white;
+	width: 70vw;
+	font-weight: lighter;
 }
-#password input{
-	width:40vw;
-	background:transparent;
-	border:none;
+#password input {
+	width:4 0vw;
+	background: transparent;
+	border: none;
 }
-
-#done{
-	text-align:center;
-	font-size:2rem;
-	margin-top:8vh;
-	letter-spacing:2px;
+#done {
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 8vh;
+	letter-spacing: 2px;
 }
