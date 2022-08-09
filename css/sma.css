@@ -51,7 +51,6 @@ main > img {
 }
 #name {
 	font-size: 1.7rem;
-	text-align: center;
 	border-bottom: 1px solid white;
 	width: 70vw;
 	margin: auto;
@@ -65,13 +64,12 @@ main > img {
 }
 
 #email {
-margin: auto;
-font-size: 1.7rem;
-margin-top: 2vh;
-text-align: center;
-border-bottom: 1px solid white;
-width: 70vw;
-font-weight: lighter;
+	margin: auto;
+	font-size: 1.7rem;
+	margin-top: 2vh;
+	border-bottom: 1px solid white;
+	width: 70vw;
+	font-weight: lighter;
 }
 #email input {
 	width: 48vw;
@@ -82,13 +80,12 @@ font-weight: lighter;
 	margin: auto;
 	font-size: 1.7rem;
 	margin-top: 5vh;
-	text-align: center;	
 	border-bottom: 1px solid white;
 	width: 70vw;
 	font-weight: lighter;
 }
 #password input {
-	width:4 0vw;
+	width:40vw;
 	background: transparent;
 	border: none;
 }
